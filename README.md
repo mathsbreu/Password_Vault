@@ -2,11 +2,13 @@ This is a command-line Password Vault application written in Python.
 It allows a user to store, retrieve, update, and delete passwords for different services
 
 Requirements
-Install the following Python libraries:
-1) pip install mysql-connector-python
-2) pip install cryptography
-3) pip install bcrypt
-You also need a running MySQL server
+1) mysql-connector-python
+2) cryptography
+3) bcrypt
+
+pip install -r requirements.txt
+
+*You also need a running MySQL server*
 
 The application uses:
 1) MySQL for storing vault entries
